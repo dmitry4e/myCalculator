@@ -1,18 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello Git!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/result_TV"
+        style="@style/TV_custom"
+        android:textSize="40sp"
+        android:text="546465"/>
+    <TextView
+        android:id="@+id/work_TV"
+        style="@style/TV_custom"
+        android:textSize="60sp"
+        android:text="456231321"/>
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+
+        <LinearLayout style="@style/LL_stand_style">
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LL_stand_style">
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LL_stand_style">
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LL_stand_style">
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LL_stand_style">
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+
+            <Button
+                style="@style/Button_Function"
+                android:text="C" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

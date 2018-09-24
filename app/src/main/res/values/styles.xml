@@ -4,5 +4,39 @@
     <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
+    <style name="Button_Numbers">
+        <item name="android:layout_height">match_parent</item>
+
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#212121</item>
+        <item name="android:background">#ffffff</item>
+    </style>
+    <style name="Button_Function">
+
+
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#f17a0a</item>
+        <item name="android:background">#ffffff</item>
+    </style>
+    <style name="LL_stand_style">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+
+    </style>
+    <style name="TV_custom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#212121</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textDirection">rtl</item>
+        <item name="android:singleLine">true</item>
+    </style>
 
 </resources>
