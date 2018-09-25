@@ -6,6 +6,7 @@
     </style>
     <style name="Button_Numbers">
         <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
 
         <item name="android:layout_weight">1</item>
         <item name="android:textSize">30sp</item>
@@ -14,8 +15,7 @@
         <item name="android:background">#ffffff</item>
     </style>
     <style name="Button_Function">
-
-
+        <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_weight">1</item>
         <item name="android:textSize">30sp</item>
@@ -24,11 +24,10 @@
         <item name="android:background">#ffffff</item>
     </style>
     <style name="LL_stand_style">
-        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_height">0dp</item>
         <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_vertical</item>
-
     </style>
     <style name="TV_custom">
         <item name="android:layout_width">match_parent</item>
