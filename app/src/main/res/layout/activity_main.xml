@@ -7,16 +7,30 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/result_TV"
-        style="@style/TV_custom"
-        android:textSize="40sp"
-        android:text="546465"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/result_TV"
+            android:layout_weight="0.3"
+            style="@style/TV_custom"
+            android:textSize="40sp"
+            android:text=""/>
+        <TextView
+            android:id="@+id/operator_TV"
+            android:layout_weight="1.7"
+            style="@style/TV_custom"
+            android:textSize="40sp"
+            android:text=""
+            android:gravity="center"/>
+    </LinearLayout>
+
     <TextView
         android:id="@+id/work_TV"
         style="@style/TV_custom"
         android:textSize="60sp"
-        android:text="456231321"/>
+        android:text=""/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,22 +46,30 @@
             <Button
                 android:id="@+id/btn_clear"
                 style="@style/Button_Function"
-                android:text="@string/btn_clear" />
+                android:text="@string/btn_clear"
+                android:onClick="btnClear_Click"
+                />
 
             <Button
                 style="@style/Button_Function"
                 android:id="@+id/btn_backspace"
-                android:text="@string/btn_backspace" />
+                android:text="@string/btn_backspace"
+                android:onClick="btnBackspace_Click"
+                />
 
             <Button
                 android:id="@+id/btn_square"
                 style="@style/Button_Function"
-                android:text="@string/btn_Square" />
+                android:text="@string/btn_Square"
+                android:onClick="btnSqrt_Click"
+
+                />
 
             <Button
                 android:id="@+id/btn_divide"
                 style="@style/Button_Function"
-                android:text="@string/btn_Div" />
+                android:text="@string/btn_Div"
+                android:onClick="btnFunction_Click"/>
         </LinearLayout>
 
         <LinearLayout style="@style/LL_stand_style">
@@ -55,22 +77,26 @@
             <Button
                 android:id="@+id/btn_7"
                 style="@style/Button_Numbers"
-                android:text="7" />
+                android:text="7"
+                android:onClick="btnNumber_Click"/>
 
             <Button
                 android:id="@+id/btn_8"
                 style="@style/Button_Numbers"
-                android:text="@string/btn_8" />
+                android:text="@string/btn_8"
+                android:onClick="btnNumber_Click"/>
 
             <Button
                 android:id="@+id/btn_9"
                 style="@style/Button_Numbers"
-                android:text="@string/btn_9" />
+                android:text="@string/btn_9"
+                android:onClick="btnNumber_Click"/>
 
             <Button
                 android:id="@+id/btn_multi"
                 style="@style/Button_Function"
-                android:text="@string/btn_multi" />
+                android:text="@string/btn_multi"
+                android:onClick="btnFunction_Click"/>
         </LinearLayout>
 
         <LinearLayout style="@style/LL_stand_style">
@@ -78,22 +104,26 @@
             <Button
                 android:id="@+id/btn_4"
                 style="@style/Button_Numbers"
-                android:text="@string/btn_4" />
+                android:text="@string/btn_4"
+                android:onClick="btnNumber_Click"/>
 
             <Button
                 android:id="@+id/btn_5"
                 style="@style/Button_Numbers"
-                android:text="@string/btn_5" />
+                android:text="@string/btn_5"
+                android:onClick="btnNumber_Click"/>
 
             <Button
                 android:id="@+id/btn_6"
                 style="@style/Button_Numbers"
-                android:text="@string/btn_6" />
+                android:text="@string/btn_6"
+                android:onClick="btnNumber_Click"/>
 
             <Button
                 android:id="@+id/btn_subtraction"
                 style="@style/Button_Function"
-                android:text="@string/btn_subtraction" />
+                android:text="@string/btn_subtraction"
+                android:onClick="btnFunction_Click"/>
         </LinearLayout>
 
         <LinearLayout style="@style/LL_stand_style">
@@ -101,22 +131,26 @@
             <Button
                 android:id="@+id/btn_1"
                 style="@style/Button_Numbers"
-                android:text="@string/btn_1" />
+                android:text="@string/btn_1"
+                android:onClick="btnNumber_Click"/>
 
             <Button
                 android:id="@+id/btn_2"
                 style="@style/Button_Numbers"
-                android:text="@string/btn_2" />
+                android:text="@string/btn_2"
+                android:onClick="btnNumber_Click"/>
 
             <Button
                 android:id="@+id/btn_3"
                 style="@style/Button_Numbers"
-                android:text="@string/btn_3" />
+                android:text="@string/btn_3"
+                android:onClick="btnNumber_Click"/>
 
             <Button
                 android:id="@+id/btn_add"
                 style="@style/Button_Function"
-                android:text="@string/btn_add" />
+                android:text="@string/btn_add"
+                android:onClick="btnFunction_Click"/>
         </LinearLayout>
 
         <LinearLayout style="@style/LL_stand_style">
@@ -124,22 +158,26 @@
             <Button
                 android:id="@+id/btn_0"
                 style="@style/Button_Numbers"
-                android:text="@string/btn_0" />
+                android:text="@string/btn_0"
+                android:onClick="btnNumber_Click"/>
 
             <Button
                 android:id="@+id/btn_DOT"
                 style="@style/Button_Numbers"
-                android:text="@string/btn_DOT" />
+                android:text="@string/btn_DOT"
+                android:onClick="btnNumber_Click"/>
 
             <Button
                 android:id="@+id/btn_PlMin"
                 style="@style/Button_Numbers"
-                android:text="@string/btn_PlMin" />
+                android:text="@string/btn_PlMin"
+                android:onClick="btnPlusMinus_Click"/>
 
             <Button
                 android:id="@+id/btn_result"
                 style="@style/Button_Function"
-                android:text="@string/btn_result" />
+                android:text="@string/btn_result"
+                android:onClick="btnFunction_Click"/>
         </LinearLayout>
     </LinearLayout>
 
