@@ -12,7 +12,7 @@ public class MainActivity extends Activity {
 
     TextView result_TV, work_TV, operator_TV;
     String operator="";
-    Double number=0.0;
+    Double number;
 
 
     @Override
